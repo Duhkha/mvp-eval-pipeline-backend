@@ -1,0 +1,26 @@
+
+# Core Web Framework
+fastapi
+uvicorn[standard]
+
+# Database
+psycopg2-binary
+
+# ML/NLP - Embeddings & Foundational
+sentence-transformers
+torch # Ensure this matches your CUDA setup if applicable
+transformers # Needed by sentence-transformers and spacy-transformers
+
+# ML/NLP - Core Pipeline Processing (Phase 2+)
+spacy>=3.7.0 # Base library
+spacy-transformers # For using Hugging Face transformers within spaCy
+
+# Model (Installed via URL, commented here for reference)
+# en_core_web_trf==3.7.3 (https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3-py3-none-any.whl)
+
+# Utilities
+python-dotenv
+pydantic-settings
+
+# Previously used for segmentation (replaced by spaCy, keept for reference)
+nltk
