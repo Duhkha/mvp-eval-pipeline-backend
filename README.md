@@ -1,6 +1,6 @@
 # Project: MVP Evaluation Pipeline Backend
-Version: 0.1 (Initial MVP)
-Date: 2025-03-29
+# Version: 0.1 (Initial MVP)
+# Date: 2025-03-29
 
 ## 1. Project Overview
 
