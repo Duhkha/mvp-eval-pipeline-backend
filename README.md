@@ -1,8 +1,6 @@
-========================================
 Project: MVP Evaluation Pipeline Backend
 Version: 0.1 (Initial MVP)
 Date: 2025-03-29
-========================================
 
 ## 1. Project Overview
 
@@ -15,6 +13,9 @@ This project is a backend service (built with FastAPI) designed to automatically
 * GPU acceleration (CUDA) via PyTorch is enabled and verified for ML model inference.
 
 ## 3. Project Structure & File Descriptions
+
+<pre>
+   
 
 MVP_EvaluationPipeline/
 ├── venv/                     # Python virtual environment
@@ -49,6 +50,7 @@ MVP_EvaluationPipeline/
 ├── main.py                   # FastAPI application entry point (creates app, includes router, runs lifespan)
 ├── requirements.txt          # Python package dependencies
 └── README.MD         # This file
+</pre>
 
 ## 4. Core Functionality Implemented (MVP v0.1)
 
